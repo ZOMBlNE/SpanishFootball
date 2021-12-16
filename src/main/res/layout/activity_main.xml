@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#002880">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="SHOW GAMEWEEK"
+            android:backgroundTint="#0d92ff"
+            android:layout_marginRight="10dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gameweek:"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            />
+        <EditText
+            android:id="@+id/edit1"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="1"
+            android:textColorHint="#A9A9A9"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv0"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv8"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/tv9"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="#ffffff" />
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/nuzp"
+    android:layout_gravity="center"
+    />
+
+    </LinearLayout>
+
+</LinearLayout>
